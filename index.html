@@ -32,29 +32,70 @@
     <!-- style.css file -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="max-w-screen-lg mx-auto">
-    <header class="my-5">
-      <nav class="flex justify-between items-center">
-        <div class="logo flex items-center justify-center gap-1">
-          <i class="fa-solid fa-arrow-right rounded-full bg-green-300 p-1.5 -rotate-45"></i>
-          <span class="text-3xl">Rinterio</span></div>
+  <body>
+    <div class="background bg-linear-to-b from-gray-200 to-white">
+      <div class="content max-w-screen-lg mx-auto">
+        <header class="py-5">
+          <!-- nav start -->
+          <nav class="flex justify-between items-center">
+            <!-- logo -->
+            <div class="logo flex items-center justify-center gap-1">
+              <i
+                class="fa-solid fa-arrow-right rounded-full bg-green-300 p-1.5 -rotate-45"
+              ></i>
+              <span class="text-3xl">Rinterio</span>
+            </div>
+            <!-- menu items -->
+            <div
+              class="menuItems text-base pt-2 flex justify-center items-center gap-5"
+            >
+              <a class="font-extrabold" href="">Home</a>
+              <a href="">Portfolio</a>
+              <a href="">Portfolio</a>
+              <a href="">Blogs</a>
+              <a href="">Contact Us</a>
+            </div>
+            <!-- icons -->
+            <div class="icons flex items-center pt-2 gap-4">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p
+                class="flex justify-center items-center gap-1.5 bg-green-300 py-3 px-5 rounded-3xl"
+              >
+                Book Consult
+                <i
+                  class="fa-solid fa-arrow-right rounded-full bg-black text-green-300 p-1.5 -rotate-45"
+                ></i>
+              </p>
+            </div>
+          </nav>
 
-        <div class="menuItems text-base pt-2 flex justify-center items-center gap-5">
-          <a class="font-extrabold" href="">Home</a>
-          <a href="">Portfolio</a>
-          <a href="">Portfolio</a>
-          <a href="">Blogs</a>
-          <a href="">Contact Us</a>
-        </div>
+          <!-- banner -->
 
-        <div class="icons flex items-center pt-2 gap-4">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
-          <p class="flex justify-center items-center gap-1.5 bg-green-300 py-3 px-5 rounded-3xl">Book Consult
-            <i class="fa-solid fa-arrow-right rounded-full bg-black text-green-300 p-1.5 -rotate-45"></i></p>
-        </div>
-      </nav>
-    </header>
+          <div class="banner flex flex-col justify-center items-center gap-6 text-center">
+            <img src="./assets/banner.png" alt="" />
+            <h1 class="bannertitle font-extrabold text-6xl text-[rgb(33,33,33)]">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="bannerDesc font-medium text-base text-[rgb(73,73,73)]">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <p
+              class="flex justify-center items-center gap-1.5 bg-green-200 py-3 px-5 rounded-3xl"
+            >
+              View Details
+              <i
+                class="fa-solid fa-arrow-right rounded-full bg-green-300 p-1.5 -rotate-45"
+              ></i>
+            </p>
+          </div>
+        </header>
+      </div>
+    </div>
+
     <main></main>
     <footer></footer>
   </body>
